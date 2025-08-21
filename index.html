@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synergy for Community Development - Social Links</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css ">
     <style>
         /* Reset and base styles */
         * {
@@ -124,7 +124,10 @@
             text-align: justify;
             word-spacing: normal;
             letter-spacing: normal;
-            line-height: 1.5;
+            line-height: 1.6;
+            hyphens: auto;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
         }
         
         /* Tags section */
@@ -266,17 +269,15 @@
             .subtitle { font-size: 15px; }
             .link-list a { padding: 14px 16px; font-size: 15px; }
             
-            /* Fix the mission text spacing issue on mobile */
-            .mission {
-                padding: 20px;
-            }
-            
+            /* Fix mobile readability */
             .mission p {
-                text-align: justify;
+                text-align: left; /* Change from justify to left */
                 word-spacing: normal;
                 letter-spacing: normal;
-                line-height: 1.5;
+                line-height: 1.6;
                 margin-bottom: 8px;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
             }
         }
     </style>
@@ -302,12 +303,12 @@
         <nav aria-label="Social media links">
             <ul class="link-list">
                 <li><a href="mailto:synergyforcd@gmail.com" class="email"><i class="fas fa-envelope"></i> Email Us</a></li>
-                <li><a href="https://www.linkedin.com/company/synergyforcd" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="https://www.youtube.com/@Synergyforcd" target="_blank" class="youtube"><i class="fab fa-youtube"></i> YouTube</a></li>
-                <li><a href="https://web.facebook.com/people/Synergy-for-Community-Development/61561465750979/" target="_blank" class="facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href="https://t.me/synergyforcd" target="_blank" class="telegram"><i class="fab fa-telegram"></i> Join Telegram</a></li>
-                <li><a href="https://instagram.com/synergyforcd" target="_blank" class="instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
-                <li><a href="https://x.com/synergyforcd" target="_blank" class="twitter"><i class="fab fa-x-twitter"></i> X (Twitter)</a></li>
+                <li><a href="https://www.linkedin.com/company/synergyforcd " target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/@Synergyforcd " target="_blank" class="youtube"><i class="fab fa-youtube"></i> YouTube</a></li>
+                <li><a href="https://web.facebook.com/people/Synergy-for-Community-Development/61561465750979/ " target="_blank" class="facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://t.me/synergyforcd " target="_blank" class="telegram"><i class="fab fa-telegram"></i> Join Telegram</a></li>
+                <li><a href="https://instagram.com/synergyforcd " target="_blank" class="instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://x.com/synergyforcd " target="_blank" class="twitter"><i class="fab fa-x-twitter"></i> X (Twitter)</a></li>
             </ul>
         </nav>
 
